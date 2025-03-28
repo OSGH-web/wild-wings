@@ -1,20 +1,20 @@
 # Wild Wings (Tiny Wings inspired game)
 ## Project Info
 
--   Godot Version: 3.4
--   scripts written in C#
+-   Godot Version: 4.4
+-   scripts written in GDScript
 
 ## Build steps (WIP)
 
--   Open the project with Godot 3.4
+-   Open the project with Godot 4.4
 -   ideally you should be able to build with `F5` or `CMD-B` (mac)
 
 ## changelog
 
--   built random hill generator (`scripts/HillGenerator.cs`)
--   wrote basic hill drawing logic (`scripts/Hill.cs`)
--   added progressive scrolling (`scripts/Hill.cs`)
--   added Label/slider class for display debug info (`scripts/DebugLabel.cs`)
+-   built random hill generator (`scripts/hill_generator.gd`)
+-   wrote basic hill drawing logic (`scripts/hill.gd`)
+-   added progressive scrolling (`scripts/hill.gd`)
+-   added Label/slider class for display debug info (`scripts/debug_label.gd`)
 
 ## Screencaps
 
@@ -38,3 +38,5 @@
 [Godot Docs: Your first 2D game](https://docs.godotengine.org/en/4.3/getting_started/first_2d_game/index.html)
 
 -   current node structure is based off of this tutorial
+
+

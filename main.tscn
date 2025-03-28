@@ -1,0 +1,19 @@
+[gd_scene load_steps=5 format=3 uid="uid://bevgw0t8odqag"]
+
+[ext_resource type="Script" path="res://scripts/Hill.cs" id="1_m83j3"]
+[ext_resource type="FontFile" uid="uid://b68j416ltltvk" path="res://assets/HelveticaWorld-Bold.ttf" id="2_qjjqi"]
+[ext_resource type="Script" path="res://scripts/DebugLabel.cs" id="2_xr6ox"]
+
+[sub_resource type="Theme" id="Theme_bm2ih"]
+default_font = ExtResource("2_qjjqi")
+
+[node name="Main" type="Area2D"]
+
+[node name="Hill" type="Node2D" parent="."]
+script = ExtResource("1_m83j3")
+
+[node name="DebugLabel" type="VBoxContainer" parent="."]
+offset_right = 371.0
+offset_bottom = 87.0
+theme = SubResource("Theme_bm2ih")
+script = ExtResource("2_xr6ox")
